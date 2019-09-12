@@ -1,13 +1,13 @@
-Insert Into students (studentid, studentlastname, studentfirstname, programgroup) Values (
-Insert Into students (studentid, studentlastname, studentfirstname, programgroup) Values (
-Insert Into students (studentid, studentlastname, studentfirstname, programgroup) Values (
-Insert Into students (studentid, studentlastname, studentfirstname, programgroup) Values (
-Insert Into students (studentid, studentlastname, studentfirstname, programgroup) Values (
-Insert Into students (studentid, studentlastname, studentfirstname, programgroup) Values (
-Insert Into students (studentid, studentlastname, studentfirstname, programgroup) Values (
-Insert Into students (studentid, studentlastname, studentfirstname, programgroup) Values (
-Insert Into students (studentid, studentlastname, studentfirstname, programgroup) Values (
-Insert Into students (studentid, studentlastname, studentfirstname, programgroup) Values (
+Insert Into students (studentid, studentlastname, studentfirstname, programgroup) Values ( 'A101' 'singh' 'avipreet' 'group1');
+Insert Into students (studentid, studentlastname, studentfirstname, programgroup) Values ( 'A102' 'singh' 'jashan' 'group1');
+Insert Into students (studentid, studentlastname, studentfirstname, programgroup) Values ( 'A103' 'singh' 'gursagar' 'group2');
+Insert Into students (studentid, studentlastname, studentfirstname, programgroup) Values ( 'A104' 'singh' 'jagtar' 'group2');
+Insert Into students (studentid, studentlastname, studentfirstname, programgroup) Values ( 'A105' 'singh' 'harpreet' 'group1');
+Insert Into students (studentid, studentlastname, studentfirstname, programgroup) Values ( 'A106' 'singh' 'jaswant' 'group2');
+Insert Into students (studentid, studentlastname, studentfirstname, programgroup) Values ( 'A107' 'singh' 'vivek' 'group1');
+Insert Into students (studentid, studentlastname, studentfirstname, programgroup) Values ( 'A108' 'singh' 'aman' 'group1');
+Insert Into students (studentid, studentlastname, studentfirstname, programgroup) Values ( 'A109' 'singh' 'honey' 'group2');
+Insert Into students (studentid, studentlastname, studentfirstname, programgroup) Values ( 'A110' 'singh' 'gagan' 'group1');
 
 
 
