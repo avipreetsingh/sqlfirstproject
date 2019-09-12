@@ -10,17 +10,16 @@ Insert Into students (studentid, studentlastname, studentfirstname, programgroup
 Insert Into students (studentid, studentlastname, studentfirstname, programgroup) Values ( 'A110' 'singh' 'gagan' 'group1');
 
 
-
-
-
-
-
-
-
-
-
-
-
+INSERT INTO pgmgroups (programegroupid, programegroupname, classid, sectionid) value ( '1', 'group1', 'csd2206', '2');
+INSERT INTO pgmgroups (programegroupid, programegroupname, classid, sectionid) value ( '2', 'group1', 'csd2256', '3');
+INSERT INTO pgmgroups (programegroupid, programegroupname, classid, sectionid) value ( '3', 'group1', 'csd1144', '2');
+INSERT INTO pgmgroups (programegroupid, programegroupname, classid, sectionid) value ( '4', 'group1', 'csd1123', '3');
+INSERT INTO pgmgroups (programegroupid, programegroupname, classid, sectionid) value ( '5', 'group1', 'csd1194', '2');
+INSERT INTO pgmgroups (programegroupid, programegroupname, classid, sectionid) value ( '6', 'group1', 'csd8765', '3');
+INSERT INTO pgmgroups (programegroupid, programegroupname, classid, sectionid) value ( '7', 'group1', 'csd4404', '2');
+INSERT INTO pgmgroups (programegroupid, programegroupname, classid, sectionid) value ( '8', 'group1', 'csd1324', '3');
+INSERT INTO pgmgroups (programegroupid, programegroupname, classid, sectionid) value ( '9', 'group1', 'csd1234', '3');
+INSERT INTO pgmgroups (programegroupid, programegroupname, classid, sectionid) value ( '10', 'group1', 'csd4567', '2');
 
 
 
@@ -43,5 +42,7 @@ CREATE TABLE pgmgroups(
 	   classid VARCHAR (20), 
 	   sectionid VARCHAR (20)
 	   PRIMARY KEY (programgroupid)
-);	   
+);	
+
+INSERT INTO pgmgroups (programegroupid, programegroupname, classid, sectionid)
 	   
