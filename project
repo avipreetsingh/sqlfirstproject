@@ -1,0 +1,47 @@
+Insert Into students (studentid, studentlastname, studentfirstname, programgroup) Values (
+Insert Into students (studentid, studentlastname, studentfirstname, programgroup) Values (
+Insert Into students (studentid, studentlastname, studentfirstname, programgroup) Values (
+Insert Into students (studentid, studentlastname, studentfirstname, programgroup) Values (
+Insert Into students (studentid, studentlastname, studentfirstname, programgroup) Values (
+Insert Into students (studentid, studentlastname, studentfirstname, programgroup) Values (
+Insert Into students (studentid, studentlastname, studentfirstname, programgroup) Values (
+Insert Into students (studentid, studentlastname, studentfirstname, programgroup) Values (
+Insert Into students (studentid, studentlastname, studentfirstname, programgroup) Values (
+Insert Into students (studentid, studentlastname, studentfirstname, programgroup) Values (
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CREATE TABLE students(
+       studentsid VARCHAR (20) NOT NULL,
+	   studentlastname VARCHAR (20),
+	   studentfirstname VARCHAR (20),
+	   group VARCHAR (20)
+	   PRIMARY KEY (studentid)
+);	   
+
+
+
+
+CREATE TABLE pgmgroups(
+       programgroupid VARCHAR (20) NOT NULL,
+	   programegroupname VARCHAR (20),
+	   classid VARCHAR (20),
+	   sectionid VARCHAR (20)
+	   PRIMARY KEY (programgroupid)
+);	   
+	   
