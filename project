@@ -44,5 +44,5 @@ CREATE TABLE pgmgroups(
 	   PRIMARY KEY (programgroupid)
 );	
 
-INSERT INTO pgmgroups (programegroupid, programegroupname, classid, sectionid)
+
 	   
