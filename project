@@ -40,7 +40,7 @@ CREATE TABLE students(
 CREATE TABLE pgmgroups(
        programgroupid VARCHAR (20) NOT NULL,
 	   programegroupname VARCHAR (20),
-	   classid VARCHAR (20),
+	   classid VARCHAR (20), 
 	   sectionid VARCHAR (20)
 	   PRIMARY KEY (programgroupid)
 );	   
