@@ -30,3 +30,7 @@ SELECT TABLE_SCHEMA ,
        NUMERIC_SCALE ,
        DATETIME_PRECISION
 FROM   INFORMATION_SCHEMA.COLUMNS;
+
+INSERT INTO veggiess (veggie_id,veggie_price,veggie_name) values ('1','1','carrot')
+
+
