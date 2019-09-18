@@ -1,0 +1,8 @@
+CREATE TABLE Veegies(
+
+veggie_id varchaer(20),
+veggie_price money,
+veggie_name varchar(20),
+veggie_type varchar(20),
+primary
+);
