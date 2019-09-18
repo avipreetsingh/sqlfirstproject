@@ -6,3 +6,13 @@ veggie_name varchar(20),
 veggie_type varchar(20),
 primary
 );
+
+
+CREATE TABLE lot(
+
+lot_id varchaer(20),
+quantity_of_vegetables int,
+lot_name varchar(20),
+veggie_id varchar(20)
+primary key (lot_id)
+);
