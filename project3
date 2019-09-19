@@ -12,3 +12,21 @@ INSERT INTO lots(lot_id,quantity_of_vegetables,lot_name,veggie_id) VALUES('10','
 ***combine two table ****
 select * from veggies,lots
  where veggies.veggie_id = lots.veggie_id
+ 
+ 
+ ***challenge 2**
+ select min(lots.quantity_of_vegetables) , min(veggies.veggie_name)
+from lots, veggies
+where lots.veggie_id = veggies.veggie_id
+and veggies.veggie_type = 'root'
+*******
+select max(lots.quantity_of_vegetables) , max(veggies.veggie_name)
+from lots, veggies
+where lots.veggie_id = veggies.veggie_id
+and veggies.veggie_type = 'root'
+
+***chalenge 1**
+select veggies.veggie_name,
+ lots.quantity_of_vegetables * veggies.veggie_price
+ from veggies,lots
+ where veggies.veggie_id= lots.veggie_id
