@@ -38,7 +38,9 @@ from lots,veggies
 where lots.veggie_id
 order by veggie_name
 
-*****challenge***
+*****challenge4***
 select sum(lots.quantity_of_vegetables)
 from veggies,lots
 where veggies.veggie_id = lots.veggie_id
+
+ 
