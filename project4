@@ -1,0 +1,6 @@
+***challenge 5***
+ create view FARM as
+select veggies.veggie_name,
+ lots.quantity_of_vegetables, veggies.veggie_price
+ from veggies,lots
+ where veggies.veggie_id= lots.veggie_id
