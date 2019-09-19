@@ -4,3 +4,10 @@ select veggies.veggie_name,
  lots.quantity_of_vegetables, veggies.veggie_price
  from veggies,lots
  where veggies.veggie_id= lots.veggie_id
+ 
+ 
+ 
+ 
+SELECT * FROM  veggies v
+join lots 1
+ON v.veggie_id =  1.veggie_id
