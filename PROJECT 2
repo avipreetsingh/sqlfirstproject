@@ -31,6 +31,18 @@ SELECT TABLE_SCHEMA ,
        DATETIME_PRECISION
 FROM   INFORMATION_SCHEMA.COLUMNS;
 
-INSERT INTO veggiess (veggie_id,veggie_price,veggie_name) values ('1','1','carrot')
+***INSERT INTO veggiess (veggie_id,veggie_price,veggie_name) values ('1','1','carrot')**8
+
+
+INSERT INTO veggies(veggie_id,veggie_price,veggie_name,veggie_type) VALUES('1','2','carrots','root');
+INSERT INTO veggies(veggie_id,veggie_price,veggie_name,veggie_type) VALUES('2','5','peas','root');
+INSERT INTO veggies(veggie_id,veggie_price,veggie_name,veggie_type) VALUES('3','7','tamotoes','root');
+INSERT INTO veggies(veggie_id,veggie_price,veggie_name,veggie_type) VALUES('4','3','corn','root');
+INSERT INTO veggies(veggie_id,veggie_price,veggie_name,veggie_type) VALUES('5','9','onion','root');
+INSERT INTO veggies(veggie_id,veggie_price,veggie_name,veggie_type) VALUES('6','4','potatoes','root');
+INSERT INTO veggies(veggie_id,veggie_price,veggie_name,veggie_type) VALUES('7','6','borocli','root');
+INSERT INTO veggies(veggie_id,veggie_price,veggie_name,veggie_type) VALUES('8','1','green bean','root');
+INSERT INTO veggies(veggie_id,veggie_price,veggie_name,veggie_type) VALUES('9','10','aspargus','root');
+INSERT INTO veggies(veggie_id,veggie_price,veggie_name,veggie_type) VALUES('10','4','squash','root');
 
 
