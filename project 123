@@ -53,14 +53,14 @@ ADD item_price money;
 
 
 
-insert into warehousees ( item_number, Item_description, shelf_number, quantity_in_stock) VALUES ('1','table', '33', '2');
-insert into warehousees ( item_number, Item_description, shelf_number, quantity_in_stock) VALUES ('2','chair', '23', '35');
-insert into warehousees ( item_number, Item_description, shelf_number, quantity_in_stock) VALUES ('3','fridge', '56', '23');
-insert into warehousees ( item_number, Item_description, shelf_number, quantity_in_stock) VALUES ('4','fan', '45', '67');
-insert into warehousees ( item_number, Item_description, shelf_number, quantity_in_stock) VALUES ('5','oven', '78', '89');
+insert into warehouse ( item_number, item_description, shelve_number, quantity_in_stock, item_price) VALUES ('1','table', '33', '2', '900');
+insert into warehouse ( item_number, item_description, shelve_number, quantity_in_stock, item_price) VALUES ('2','chair', '23', '35', '897');
+insert into warehouse ( item_number, item_description, shelve_number, quantity_in_stock, item_price) VALUES ('3','fridge', '56', '23', '765');
+insert into warehouse ( item_number, item_description, shelve_number, quantity_in_stock, item_price) VALUES ('4','fan', '45', '67','876');
+insert into warehouse ( item_number, item_description, shelve_number, quantity_in_stock, item_price) VALUES ('5','oven', '78', '89', '765');
 
 
-select * from warehousees;
+select * from warehouse;
 
 CREATE TABLE orders(
 order_id varchar(20),
