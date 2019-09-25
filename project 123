@@ -17,3 +17,19 @@ order_number VARCHAR (20) NOT NULL,
 
 
 );
+
+CREATE TABLE truck(
+truck_number VARCHAR (20) NOT NULL,
+driver_name VARCHAR (20) NOT NULL,
+order_number VARCHAR (20) NOT NULL,
+
+);
+
+
+INSERT INTO truck(truck_number,driver_name,order_number) VALUES('12345', 'jassi', '09876');
+INSERT INTO truck(truck_number,driver_name,order_number) VALUES('12346', 'rajassi', '098765');
+INSERT INTO truck(truck_number,driver_name,order_number) VALUES('12347', 'uyjassi', '098766');
+INSERT INTO truck(truck_number,driver_name,order_number) VALUES('12348', 'rejassi', '098765');
+INSERT INTO truck(truck_number,driver_name,order_number) VALUES('12349', 'oiujassi', '098764');
+
+select * from truck
