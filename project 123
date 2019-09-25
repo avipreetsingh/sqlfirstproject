@@ -1,0 +1,19 @@
+CREATE TABLE warehouses(
+item_number VARCHAR (20) NOT NULL,
+item_description VARCHAR (20) NOT NULL,
+shelve_number VARCHAR (20) NOT NULL,
+quantity_in_stock int
+
+
+
+);
+
+CREATE TABLE truck(
+truck_number VARCHAR (20) NOT NULL,
+driver_name VARCHAR (20) NOT NULL,
+order_number VARCHAR (20) NOT NULL,
+
+
+
+
+);
