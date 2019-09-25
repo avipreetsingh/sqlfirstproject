@@ -40,6 +40,9 @@ item_description VARCHAR (20),
 shelf_number VARCHAR (20),
 quantity_in_stock int
 
+ALTER TABLE warehousees
+ADD item_price money;
+
 
 
 );
