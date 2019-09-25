@@ -69,5 +69,13 @@ truck_number varchar(20),
 primary key(order_id)
 );
 
+INSERT INTO orders (order_id, item_number, truck_number) VALUES ('1', '876', '2345');
+INSERT INTO orders (order_id, item_number, truck_number) VALUES ('2', '896', '2346');
+INSERT INTO orders (order_id, item_number, truck_number) VALUES ('3', '566', '2347');
+INSERT INTO orders (order_id, item_number, truck_number) VALUES ('4', '346', '2348');
+INSERT INTO orders (order_id, item_number, truck_number) VALUES ('5', '096', '2349');
+ 
+ SELECT * FROM orders
+
 
 
