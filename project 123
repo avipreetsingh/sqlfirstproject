@@ -55,4 +55,12 @@ insert into warehousees ( item_number, Item_description, shelf_number, quantity_
 
 select * from warehousees;
 
+CREATE TABLE orders(
+order_id varchar(20),
+item_number varchar(20),
+truck_number varchar(20),
+primary key(order_id)
+);
+
+
 
