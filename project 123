@@ -33,3 +33,26 @@ INSERT INTO truck(truck_number,driver_name,order_number) VALUES('12348', 'rejass
 INSERT INTO truck(truck_number,driver_name,order_number) VALUES('12349', 'oiujassi', '098764');
 
 select * from truck
+
+CREATE TABLE warehousees(
+item_number VARCHAR (20),
+item_description VARCHAR (20),
+shelf_number VARCHAR (20),
+quantity_in_stock int
+
+
+
+);
+
+
+
+insert into warehousees ( item_number, Item_description, shelf_number, quantity_in_stock) VALUES ('1','table', '33', '2');
+insert into warehousees ( item_number, Item_description, shelf_number, quantity_in_stock) VALUES ('2','chair', '23', '35');
+insert into warehousees ( item_number, Item_description, shelf_number, quantity_in_stock) VALUES ('3','fridge', '56', '23');
+insert into warehousees ( item_number, Item_description, shelf_number, quantity_in_stock) VALUES ('4','fan', '45', '67');
+insert into warehousees ( item_number, Item_description, shelf_number, quantity_in_stock) VALUES ('5','oven', '78', '89');
+insert into warehousees ( item_number, Item_description, shelf_number, quantity_in_stock) VALUES ('6','ac', '34', '11');
+
+select * from warehousees;
+
+
