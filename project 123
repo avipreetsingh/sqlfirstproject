@@ -82,4 +82,12 @@ SELECT * FROM orders as o,trucks as t,warehouse as w
 where o.item_number = w.item_number and
 o.truck_number = t.truck_number
 
+***************************
+CREATE TABLE warehouse(
+ITEM_ID VARCHAR (20) NOT NULL,
+ITEM_QTY INT,
+ITEM_COST MONEY NOT NULL,
+ITEM_DESCRIPTION VARCHAR(20),
+primary key(ITEM_ID)
+);
 
