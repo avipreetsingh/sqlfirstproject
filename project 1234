@@ -1,0 +1,8 @@
+select * from clothes_store
+select * from clothes
+select * from orders
+
+
+************dollar value of jacket**************
+select (c.cloth_cost*l.cloth_qty) total_value, c.cloth_name from clothes c , clothes_store l, orders o
+where cloth_name='jacket' and c.cloth_id= o.cloth_id and o.cloth_id=l.cloth_id
